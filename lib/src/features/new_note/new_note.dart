@@ -4,6 +4,7 @@ import 'package:flutter/widgets.dart';
 import 'package:bloco_de_notas/src/shared/constants/app_colors.dart';
 
 class NewNotePage extends StatefulWidget {
+  static const String id = '/new-note';
   const NewNotePage({Key? key}) : super(key: key);
 
   @override

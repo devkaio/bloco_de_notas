@@ -5,7 +5,10 @@ import 'package:bloco_de_notas/src/shared/constants/app_colors.dart';
 import 'package:bloco_de_notas/src/shared/constants/text_styles.dart';
 import 'package:flutter/material.dart';
 
+import 'notes_page.dart';
+
 class HomePage extends StatefulWidget {
+  static const String id = '/home';
   const HomePage({Key? key}) : super(key: key);
 
   @override
@@ -97,11 +100,7 @@ class _HomePageState extends State<HomePage> {
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       floatingActionButton: InkWell(
         onTap: () {
-          Navigator.of(context).push(
-            MaterialPageRoute(
-              builder: (BuildContext context) => NewNotePage(),
-            ),
-          );
+          Navigator.pushNamed(context, NotesPage.id);
         },
         child: Container(
           width: 56.0,

@@ -6,6 +6,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatefulWidget {
+  static const String id = '/splash';
   const SplashPage({Key? key}) : super(key: key);
 
   @override
@@ -17,11 +18,7 @@ class _SplashPageState extends State<SplashPage> {
   void initState() {
     WidgetsFlutterBinding.ensureInitialized().addPostFrameCallback((timeStamp) {
       Future.delayed(Duration(seconds: 2)).then(
-        (value) => Navigator.of(context).push(
-          CupertinoPageRoute(
-            builder: (BuildContext context) => HomePage(),
-          ),
-        ),
+        (value) => Navigator.pushReplacementNamed(context, HomePage.id),
       );
     });
     super.initState();

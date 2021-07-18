@@ -1,5 +1,5 @@
-import 'package:bloco_de_notas/src/features/splash/splash_page.dart';
 import 'package:flutter/material.dart';
+import 'appwidget.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SplashPage(),
+      home: AppWidget(),
     );
   }
 }
