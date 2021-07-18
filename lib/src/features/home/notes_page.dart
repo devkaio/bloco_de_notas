@@ -22,11 +22,11 @@ class _NotesPageState extends State<NotesPage> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         flexibleSpace: Container(
-          decoration: BoxDecoration(gradient: AppColors.blueGradient),
+          decoration: BoxDecoration(gradient: AppColors.blueGradientAppBar),
         ),
         centerTitle: true,
         elevation: 0.0,
-        automaticallyImplyLeading: false,
+        automaticallyImplyLeading: true,
         backwardsCompatibility: false,
         systemOverlayStyle:
             SystemUiOverlayStyle(statusBarColor: Colors.transparent),

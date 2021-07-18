@@ -1,3 +1,4 @@
+import 'package:bloco_de_notas/src/shared/widgets/button_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -222,7 +223,12 @@ class _NewNotePageState extends State<NewNotePage> {
                 ),
               ),
             ),
-          )
+          ),
+          Positioned(
+            bottom: 88.0,
+            right: 28.0,
+            child: CustomButton(),
+          ),
         ],
       ),
     );

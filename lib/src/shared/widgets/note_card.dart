@@ -1,3 +1,4 @@
+import 'package:bloco_de_notas/src/features/new_note/new_note.dart';
 import 'package:flutter/material.dart';
 
 class NoteCardWidget extends StatelessWidget {
@@ -83,7 +84,9 @@ class NoteCardWidget extends StatelessWidget {
           ],
         ),
       ),
-      onTap: onTap,
+      onTap: () {
+        Navigator.pushNamed(context, NewNotePage.id);
+      },
     );
   }
 }
