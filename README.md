@@ -1,16 +1,20 @@
-# bloco_de_notas
+# #LevelUP4 | Raro Academy  
+  
+## Journal  
+Notes app built with Flutter in the Raro Academy Training.  
 
-A new Flutter project.
+## Result  
+<center>  
+  <img src="screenshots/screenshot_1.png" width="400" />
+  <img src="screenshots/screenshot_2.png" width="400" />
+</center>  
 
-## Getting Started
+## Screens  
+- Splash Screen
+- Homepage with 'Add New Note' Button (mocked notes) and search field (not working)
+- New Note after click on Add New Note button or when click on any note on the screen
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dependencies
+- animated_card
+- flutter_staggered_grid_view
+  

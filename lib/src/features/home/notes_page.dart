@@ -26,7 +26,7 @@ class _NotesPageState extends State<NotesPage> {
         ),
         centerTitle: true,
         elevation: 0.0,
-        automaticallyImplyLeading: true,
+        automaticallyImplyLeading: false,
         backwardsCompatibility: false,
         systemOverlayStyle:
             SystemUiOverlayStyle(statusBarColor: Colors.transparent),
@@ -64,13 +64,13 @@ class _NotesPageState extends State<NotesPage> {
           ),
           Expanded(
             child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 12.0),
+              padding: const EdgeInsets.symmetric(horizontal: 8.0),
               child: CustomScrollBar(
                 thumbColor: AppColors.blueGradient,
                 child: StaggeredGridView.count(
                   crossAxisCount: 2,
                   padding: EdgeInsets.symmetric(
-                    horizontal: 16.0,
+                    horizontal: 8.0,
                     vertical: 13.0,
                   ),
                   children: [
@@ -83,15 +83,18 @@ class _NotesPageState extends State<NotesPage> {
                       icon: [
                         Icon(
                           Icons.date_range,
-                          color: Colors.grey,
+                          color: Color.fromRGBO(0, 0, 0, 0.54),
+                          size: 20.0,
                         ),
                         Icon(
                           Icons.attach_file,
-                          color: Colors.grey,
+                          color: Color.fromRGBO(0, 0, 0, 0.54),
+                          size: 20.0,
                         ),
                         Icon(
                           Icons.favorite,
-                          color: Colors.grey,
+                          color: Color.fromRGBO(0, 0, 0, 0.54),
+                          size: 20.0,
                         ),
                       ],
                       onTap: () {},
@@ -105,7 +108,8 @@ class _NotesPageState extends State<NotesPage> {
                       icon: [
                         Icon(
                           Icons.attach_file,
-                          color: Colors.grey,
+                          color: Color.fromRGBO(0, 0, 0, 0.54),
+                          size: 20.0,
                         ),
                       ],
                       onTap: () {},
@@ -119,15 +123,18 @@ class _NotesPageState extends State<NotesPage> {
                       icon: [
                         Icon(
                           Icons.date_range,
-                          color: Colors.grey,
+                          color: Color.fromRGBO(0, 0, 0, 0.54),
+                          size: 20.0,
                         ),
                         Icon(
                           Icons.attach_file,
-                          color: Colors.grey,
+                          color: Color.fromRGBO(0, 0, 0, 0.54),
+                          size: 20.0,
                         ),
                         Icon(
                           Icons.favorite,
-                          color: Colors.grey,
+                          color: Color.fromRGBO(0, 0, 0, 0.54),
+                          size: 20.0,
                         ),
                       ],
                       onTap: () {},
@@ -135,7 +142,8 @@ class _NotesPageState extends State<NotesPage> {
                     NoteCardWidget(
                       title: 'Ideias para o novo app 2022',
                       titleColor: AppColors.ciano,
-                      body: 'Comprar ração da valíria antes do dia 20.',
+                      body:
+                          '- Ipsum dolor sit amet, consectur. \n- Adipiscing elit, sed do eiusmod tempor incidi. \n- Ut labore et dolore magna aliqua.',
                       date: '26/08/2021',
                       icon: [],
                       onTap: () {},
