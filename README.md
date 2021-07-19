@@ -9,7 +9,6 @@ Notes app built with Flutter in the Raro Academy Training.
   <img src="screenshots/screenshot_2.png" width="400" />
 </p>  
 
-
 ## Screens  
 - Splash Screen
 - Homepage with 'Add New Note' Button (mocked notes) and search field (not working)
