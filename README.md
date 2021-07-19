@@ -5,8 +5,8 @@ Notes app built with Flutter in the Raro Academy Training.
 
 ## Result  
 <center>  
-  <img src="screenshots/screenshot_1.png" width="400" />
-  <img src="screenshots/screenshot_2.png" width="400" />
+  <img src="screenshots/screenshot_1.png" width="250" />
+  <img src="screenshots/screenshot_2.png" width="250" />
 </center>  
 
 ## Screens  
