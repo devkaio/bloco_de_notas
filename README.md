@@ -4,10 +4,11 @@
 Notes app built with Flutter in the Raro Academy Training.  
 
 ## Result  
-<center>  
+<p float="left">  
   <img src="screenshots/screenshot_1.png" width="400" />
   <img src="screenshots/screenshot_2.png" width="400" />
-</center>  
+</p>  
+
 
 ## Screens  
 - Splash Screen
